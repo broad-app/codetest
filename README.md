@@ -3,7 +3,7 @@
 Integrating with external partners via APIs is the rule nowadays. Commonly they are modern and well design... but 
 sometimes they are not!
 
-Your task is to write a layer on top of a poorly designed API, providing a better experience to consume the 
+Your task is to write a layer on top of a (fictional) poorly designed API, providing a better experience to consume the 
 resource. It's expected:
 
 * a client that consumes two endpoints of the old api
@@ -13,6 +13,8 @@ This document outlines the input your program will receive and the expected outp
 includes a little background information on the problem domain.
 
 ## Creating an account
+
+The API is not available yet. No worries, we have the documentation!
 
 To create a new account, the external API exposes `POST http://api.partner.com/request-account` and expects:
 
