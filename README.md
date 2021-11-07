@@ -14,9 +14,9 @@ includes a little background information on the problem domain.
 
 ## Creating an account
 
-The API is not available yet. No worries, we have the documentation!
+The external API is not available yet. No worries, we have the documentation!
 
-To create a new account, the external API exposes `POST http://api.partner.com/request-account` and expects:
+To create a new account, the external API exposes `POST http://api.partner.com/request-account` and expects data in the following format:
 
 ```json
 {
